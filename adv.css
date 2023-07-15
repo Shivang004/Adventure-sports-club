@@ -1,0 +1,179 @@
+body {
+  background-image: url("bg.jpg");
+
+  background-attachment: fixed;
+}
+
+#img {
+  margin-left: 20%;
+  margin-top: 22px;
+  align-self: center;
+  border-radius: 8px;
+  width: 80%;
+  height: 30em;
+}
+
+.image1 {
+  width: 55%;
+  display: grid;
+}
+
+.banner {
+  display: inline-flex;
+  width: 100%;
+}
+
+.text1 {
+  width: 45%;
+  padding-left: 100px;
+  padding-top: 8em;
+  padding-right: 1em;
+  font-size: large;
+}
+
+#but1 {
+  margin-top: 50px;
+}
+
+.event {
+  margin-top: 2rem;
+  width: 65%;
+  width: 70%;
+}
+
+.container {
+  margin-top: 1em;
+
+}
+
+.eventshead {
+  display: inline-flex;
+  width: 100%;
+  overflow: clip;
+}
+
+.card {
+  margin: 50px;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+.card-body {
+  text-align: initial;
+}
+
+.social-footer {
+  padding: 1rem;
+  background: transparent;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.social-footer .social-footer-icons li:last-of-type {
+  margin-right: 0;
+}
+
+.social-footer .social-footer-icons a {
+  padding-right: 20px;
+}
+
+.social-footer .social-footer-left {
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 575px) {
+  .banner {
+    display: block;
+  }
+
+  #img {
+    margin-top: 22px;
+    align-self: center;
+    border-radius: 8px;
+    width: 95%;
+    height: 30em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .image1 {
+    width: 100%;
+  }
+
+  .text1 {
+    width: 100%;
+    padding-left: 1em;
+    padding-top: 2em;
+    padding-right: 1em;
+    font-size: large;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .eventshead {
+    display: block;
+  }
+
+  .event {
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2em;
+  }
+
+  .card {
+    margin: auto;
+  }
+
+  .row {
+    display: contents;
+  }
+
+  .col {
+    margin-top: 5em;
+    ;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  #img {
+    margin-left: 5%;
+    width: 95%;
+    height: 25em;
+  }
+
+  .text1 {
+    padding-left: 2em;
+    padding-top: 3em;
+  }
+
+  .container,
+  .container-sm {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media (min-width: 576px) {
+
+  .container,
+  .container-sm {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .rounded-circle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
