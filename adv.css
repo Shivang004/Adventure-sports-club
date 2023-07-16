@@ -138,6 +138,7 @@ body {
     margin-top: 5em;
     ;
   }
+  iframe{width:100%;}
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -156,7 +157,7 @@ body {
   .container-sm {
     max-width: 100%;
   }
-  iframe{width:100%;}
+  
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {}
