@@ -54,14 +54,23 @@ body {
 }
 
 .card {
-  margin: 50px;
+  margin: 5%;
   margin-bottom: auto;
   text-align: center;
+}
+.eventshead .card{
+  width:50%;
 }
 
 .card-body {
   text-align: initial;
 }
+.column {
+  float: left;
+  width: 50%;
+  height: 50%;
+}
+
 
 .social-footer {
   padding: 1rem;
@@ -85,6 +94,9 @@ body {
 .social-footer .social-footer-left {
   margin-left: 20px;
 }
+iframe {
+  width:40% ;
+}
 
 @media only screen and (max-width: 575px) {
   .banner {
@@ -104,7 +116,9 @@ body {
   .image1 {
     width: 100%;
   }
-
+  iframe {
+    width:80% ;
+  }
   .text1 {
     width: 100%;
     padding-left: 1em;
@@ -131,7 +145,9 @@ body {
     margin: auto;
     width: 90%;
   }
-
+  .eventshead .card{
+    width:90%;
+  }
   .row {
     display: contents;
   }
@@ -299,9 +315,7 @@ img.hover-shadow {
     max-width: 100%;
   }
 
-  iframe {
-    width: ;
-  }
+ 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {}
